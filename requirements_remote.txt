@@ -1,0 +1,4 @@
+# Requirements for live project deployment
+gunicorn==20.1.0
+psycopg2-binary==2.9.6
+platformshconfig==2.4.0
