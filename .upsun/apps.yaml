@@ -1,6 +1,0 @@
-app:
-    type: "python:3.11"
-    build: "pip install -r requirements.txt"
-    web:
-        commands:
-            start: "gunicorn manage:app"
