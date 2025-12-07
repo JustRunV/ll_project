@@ -149,7 +149,7 @@ if not config.in_build():
         db_settings = config.database_credentials('database')
         DATABASES = {
               'default': {
-                'ENGINE': 'django.db.backends.postgresql_psycopg2',
+                'ENGINE': 'django.db.backends.postgresql',
                 'NAME': db_settings['path'],
                 'USER': db_settings['username'],
                 'PASSWORD': db_settings['password'],

@@ -1,3 +1,5 @@
+# Each route describes how an inconing URL will be processed by Platform.sh.
+
 "https://{default}/":
   type: upstream
   upstream: "ll_project:http"
